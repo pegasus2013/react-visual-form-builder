@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-import { ReactFormBuilder } from './react-form-builder';
+import { ReactFormBuilder } from './react-form-builder'; //./react-form-builder/index
 import * as variables from './react-form-builder/variables';
 import DemoBar from './react-form-builder/demobar';
 
@@ -15,10 +15,10 @@ class App extends Component {
       
         {/*<PlayGround />*/}
         { /*<FormGen /> */}
-
+        
         <DemoBar variables={variables} />
         <ReactFormBuilder variables={variables} />
-
+        
       </div>
     );
   }

@@ -1,0 +1,357 @@
+.react-form-builder .react-form-builder-preview {
+  position: relative;
+  width: 70%;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 10px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  min-height: 750px;
+}
+.react-form-builder .react-form-builder-preview .preview-page-break {
+  padding: 5px 0;
+  border-top: 2px dotted #ccc;
+  border-bottom: 2px dotted #ccc;
+  background: #eee;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  margin: 5px 0;
+  background: repeating-linear-gradient(45deg, #fff, #fff 10px, #eee 10px, #eee 20px);
+}
+.react-form-builder .react-form-builder-preview label {
+  font-weight: normal;
+}
+.react-form-builder .react-form-builder-preview .bold {
+  font-weight: bold;
+}
+.react-form-builder .react-form-builder-preview .italic {
+  font-style: italic;
+}
+.react-form-builder .react-form-builder-preview .no-image {
+  background: #eee;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding-top: 35px;
+}
+.react-form-builder .react-form-builder-preview .option-inline {
+  display: inline-block !important;
+  margin-right: 10px !important;
+}
+.react-form-builder .react-form-builder-preview .form-label {
+  display: block !important;
+}
+.react-form-builder .react-form-builder-preview .edit-form {
+  position: fixed;
+  background: #fafafa;
+  padding: 30px;
+  border-left: 0;
+  box-shadow: none;
+  top: 0;
+  left: -1000px;
+  height: 100%;
+  width: 715px;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.react-form-builder .react-form-builder-preview .edit-form h4, .react-form-builder .react-form-builder-preview .edit-form .dismiss-edit {
+  margin-bottom: 30px;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dismiss-edit {
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 125%;
+}
+.react-form-builder .react-form-builder-preview .edit-form textarea {
+  width: 100%;
+}
+.react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range label {
+  display: block;
+}
+.react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range input {
+  display: inline-block;
+  width: 21%;
+  margin-left: 0;
+}
+.react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range input:last-of-type {
+  width: 78%;
+  margin-left: 1%;
+}
+.react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range input:first-of-type {
+  width: 21%;
+  margin-left: 0;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list {
+  margin-bottom: 15px;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li {
+  margin-top: 10px;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li input {
+  margin-right: 10px;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li input.form-control {
+  width: 84.26%;
+  float: left;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li input.form-control[type=checkbox] {
+  border: none;
+  box-shadow: none;
+  margin-top: 0;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li button {
+  float: left;
+  margin-right: 5px;
+}
+.react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li .dynamic-options-actions-buttons {
+  margin-left: 20px;
+}
+.react-form-builder .react-form-builder-preview .Sortable {
+  transition: opacity 0.25s ease-in;
+  position: relative;
+  cursor: move;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item {
+  padding: 10px 20px;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem {
+  position: relative;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group {
+  pointer-events: none;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group label, .react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group select, .react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group input, .react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group a {
+  cursor: move;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group input[type=date] {
+  height: 42px;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group .react-star-rating {
+  display: block;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group .checkbox-label, .react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group .radio-label {
+  font-weight: normal;
+  display: block;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem .form-group .label-required {
+  margin-left: 5px;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.SortableItem.is-dragging {
+  position: absolute;
+  z-index: 1688;
+  border: 2px #ccc dashed;
+  background: #fff;
+  cursor: move;
+  padding: 10px 20px;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item.is-placeholder {
+  display: block;
+  z-index: auto;
+  opacity: 0.4;
+  border: 2px #ccc dashed;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item .toolbar-header {
+  opacity: 0;
+  z-index: 100;
+  position: relative;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item .toolbar-header .label {
+  position: absolute;
+  left: 20px;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item .toolbar-header .toolbar-header-buttons {
+  position: absolute;
+  right: 20px;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item:hover {
+  box-shadow: inset 0 0 5px #ddd;
+  background: #fff;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item:hover select, .react-form-builder .react-form-builder-preview .Sortable .rfb-item:hover input {
+  cursor: move;
+  pointer-events: none;
+}
+.react-form-builder .react-form-builder-preview .Sortable .rfb-item:hover .toolbar-header {
+  opacity: 1;
+}
+.react-form-builder .react-form-builder-preview.is-editing .edit-form {
+  z-index: 2000;
+  border-right: 1px solid #ddd;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  left: 0;
+  transition: 0.5s;
+}
+.react-form-builder .react-form-builder-toolbar {
+  width: 250px;
+  background: #fff;
+  margin-top: -30px;
+}
+.react-form-builder .react-form-builder-toolbar h4 {
+  margin-top: 0;
+  text-align: center;
+}
+.react-form-builder .react-form-builder-toolbar .form-group {
+  padding: 10px;
+  border: 1px dashed #ddd;
+}
+.react-form-builder .react-form-builder-toolbar ul {
+  padding: 0;
+}
+.react-form-builder .react-form-builder-toolbar ul li {
+  cursor: pointer;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  border: 1px dashed #ddd;
+}
+.react-form-builder .react-form-builder-toolbar ul li i {
+  margin: 0 15px 0 10px;
+}
+
+.image-upload-container {
+  position: relative;
+}
+.image-upload-container .image-upload {
+  position: relative;
+  opacity: 0;
+  z-index: 2;
+  height: 50px;
+}
+.image-upload-container .image-upload-control {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.image-upload-preview {
+  border: 4px solid #fff;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-image-clear {
+  margin: 15px 0;
+  padding: 15px;
+}
+
+@media (max-width: 800) {
+  .react-form-builder {
+    position: relative;
+  }
+  .react-form-builder .react-form-builder-preview {
+    width: 100%;
+  }
+  .react-form-builder .react-form-builder-preview .edit-form {
+    width: 100%;
+    overflow: scroll;
+  }
+  .react-form-builder .react-form-builder-preview .edit-form .btn {
+    margin-top: 10px;
+  }
+  .react-form-builder .react-form-builder-preview .edit-form .dynamic-option-list ul li input.form-control {
+    width: 100%;
+  }
+  .react-form-builder .react-form-builder-preview .Sortable .rfb-item .toolbar-header .toolbar-header-buttons {
+    right: -15px;
+  }
+  .react-form-builder .react-form-builder-preview .Sortable .rfb-item .toolbar-header .toolbar-header-buttons .btn {
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 7px 0px 0 3px;
+    width: 35px;
+    height: 35px;
+  }
+  .react-form-builder .react-form-builder-toolbar {
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    bottom: -320px;
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    right: 0;
+    border-top: 2px solid #ccc;
+  }
+  .react-form-builder .react-form-builder-toolbar h4 {
+    padding: 10px;
+    background: #7a0019;
+    color: #fff;
+  }
+  .react-form-builder .react-form-builder-toolbar ul {
+    height: 300px;
+    overflow-x: scroll;
+  }
+  .react-form-builder .active-toolbar {
+    -webkit-transform: translate(0, -300px);
+    transform: translate(0, -300px);
+  }
+
+  .m-signature-pad {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    min-height: 140px;
+    margin: 0;
+  }
+}
+.visible_marks {
+  display: block;
+  width: 100%;
+  padding: 0 4px;
+}
+.visible_marks label {
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+.visible_marks label:first-of-type {
+  text-align: left;
+}
+.visible_marks label:last-of-type {
+  text-align: right;
+}
+
+.m-signature-pad {
+  font-size: 10px;
+  width: auto;
+}
+.m-signature-pad .m-signature-pad--body {
+  width: auto;
+  height: 200px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  height: 200px;
+  border-radius: 4px;
+}
+.m-signature-pad .m-signature-pad--body canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+}
+.m-signature-pad .m-signature-pad--footer {
+  position: relative;
+  margin-top: 10px;
+}

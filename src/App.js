@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="App-title">Sample BB8 FormGen Form</h1>
+        <h1 className="App-title">Paldesk Dynamic Form Generator</h1>
       
         {/*<PlayGround />*/}
         { /*<FormGen /> */}

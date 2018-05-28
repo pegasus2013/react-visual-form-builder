@@ -104,8 +104,10 @@ export default class Preview extends React.Component {
   }
 
   render() {
+
     let classes = this.props.className;
     if (this.props.editMode) { classes += ' is-editing'; }
+    
     let items = this.state.data.map( item => {
       switch (item.element) {
         case "Header":
@@ -158,6 +160,7 @@ export default class Preview extends React.Component {
           return <Range mutable={false} parent={this.props.parent} editModeOn={this.props.editModeOn} isDraggable={true} key={item.id} sortData={item.id} data={item} _onDestroy={this._onDestroy} />
       }
     })
+    
     return (
       <div className={classes}>
         <div className="edit-form">

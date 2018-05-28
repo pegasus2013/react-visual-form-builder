@@ -59,7 +59,6 @@ class Header extends React.Component {
   }
 }
 
-
 class Paragraph extends React.Component {
   //mixins: [SortableItemMixin],
   render() {
@@ -451,7 +450,6 @@ class Dropdown extends React.Component {
     );
   }
 }
-
 
 class Signature extends React.Component {
   // mixins: [SortableItemMixin],

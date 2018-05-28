@@ -87,7 +87,7 @@ export default class Toolbar extends React.Component {
         label: 'Placeholder Label',
         field_name: 'dropdown_',
         options: []
-      },
+      }/*,
       {
         key: 'Tags',
         canHaveAnswer: true,
@@ -96,7 +96,7 @@ export default class Toolbar extends React.Component {
         label: 'Placeholder Label',
         field_name: 'tags_',
         options: []
-      },
+      }*/,
       {
         key: 'Checkboxes',
         canHaveAnswer: true,
@@ -138,7 +138,7 @@ export default class Toolbar extends React.Component {
         label: 'Placeholder Label',
         icon: 'fa fa-text-height',
         field_name: 'text_area_'
-      },
+      }/*,
       {
         key: 'Image',
         name: 'Image',
@@ -209,7 +209,7 @@ export default class Toolbar extends React.Component {
         icon: 'fa fa-camera',
         label: 'Placeholder Label',
         field_name: 'camera_'
-      }
+      }*/
     ]
   }
 

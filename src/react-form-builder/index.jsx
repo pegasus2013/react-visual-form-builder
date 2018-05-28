@@ -26,7 +26,9 @@ class ReactFormBuilder extends React.Component {
   }
 
   editModeOn(data, e) {
-    e.stopPropagation()
+    //e.stopPropagation()
+    e.preventDefault();
+    
     if (this.state.editMode) {
       this.setState({editMode: !this.state.editMode, editElement: null});
     } else {
@@ -56,13 +58,17 @@ class ReactFormBuilder extends React.Component {
   }
 
   render() {
+
     let toolbarProps = {};
+
     if (this.props.toolbarItems)
       toolbarProps.items = this.props.toolbarItems;
+
     return (
       <div>
         <div className="react-form-builder clearfix">
           <div>
+            
             <Preview files={this.props.files}
               manualEditModeOff={this.manualEditModeOff.bind(this)}
               parent={this}
@@ -72,7 +78,9 @@ class ReactFormBuilder extends React.Component {
               editMode={this.state.editMode}
               variables={this.props.variables}
               editElement={this.state.editElement} />
+
             <Toolbar {...toolbarProps} />
+
           </div>
         </div>
       </div>

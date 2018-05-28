@@ -236,7 +236,9 @@ export default class ReactForm extends React.Component {
     return (
       <div>
         <FormValidator emitter={this.emitter} />
+        
         <div className='react-form-builder-form'>
+
           <form encType='multipart/form-data' ref='form' action={this.props.form_action} onSubmit={this.handleSubmit.bind(this)} method={this.props.form_method}>
             { this.props.authenticity_token &&
               <div style={formTokenStyle}>
@@ -245,7 +247,9 @@ export default class ReactForm extends React.Component {
                 <input name='task_id' type='hidden' value={this.props.task_id} />
               </div>
             }
+
             {items}
+
             <div className='btn-toolbar'>
               { !this.props.hide_actions &&
                 <input type='submit' className='btn btn-school btn-big btn-agree' value={actionName} />
@@ -255,6 +259,7 @@ export default class ReactForm extends React.Component {
               }
             </div>
           </form>
+
         </div>
       </div>
     )

@@ -1,22 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BB8 FormGen Playground</title>
-  <link rel="stylesheet" id="theme" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="//cdn.polyfill.io/v2/polyfill.min.js"></script>
+  <title>BB8 Form Builder Example</title>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/application.css.scss">
+  <style>
+    body {
+      font-size: 14px;
+      font-weight: 300;
+      color: #404d5b;
+      width: 900px;
+      margin: 0 auto;
+    }
+    .modal { background: rgba(0,0,0, 0.3);}
+    .modal-content { padding: 30px; }
+  </style>
 </head>
 <body>
+  
+  <script>
+    var FORM_ACTION = "/testing";
+    var FORM_METHOD = "POST";
+  </script>
+    
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
   <div id="app"></div>
-  <p style="text-align:center">
-    Powered by
-    <a href="https://github.com/mozilla-services/react-jsonschema-form">Paldesk</a>.
-    Bootstrap themes courtsesy of
-    <a href="http://bootswatch.com/">Bootswatch</a> and
-    <a href="https://github.com/aalpern/bootstrap-solarized/">bootstrap-solarized</a>.
-  </p>
-  <script src="/static/bundle.js"></script>
+  
 </body>
 </html>

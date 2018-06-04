@@ -5,7 +5,7 @@
 import React from 'react';
 
 export default class HeaderBar extends React.Component {
-  
+
   render() {
 
     const HeaderBarTitle = (<span className="label label-default">{this.props.data.text}</span>);
@@ -13,7 +13,7 @@ export default class HeaderBar extends React.Component {
     const HeaderBarMenu = (
       <div className="toolbar-header-buttons">
         {HeaderBarTitle}
-        {          
+        {
           this.props.data.element !== "LineBreak" &&
           <div className="btn is-isolated btn-school" onClick={this.props.editModeOn.bind(this.props.parent, this.props.data)}><i className="is-isolated fa fa-pencil-square-o"></i></div>
         }

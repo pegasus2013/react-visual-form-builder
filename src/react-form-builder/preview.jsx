@@ -163,7 +163,7 @@ export default class Preview extends React.Component {
     
     return (
       <div className={classes}>
-        <div className="edit-form">
+        <div className="edit-formX">
           { this.props.editElement !== null &&
             <FormElementsEdit showCorrectColumn={this.props.showCorrectColumn} files={this.props.files} manualEditModeOff={this.props.manualEditModeOff} preview={this} element={this.props.editElement} updateElement={this.updateElement} />
           }

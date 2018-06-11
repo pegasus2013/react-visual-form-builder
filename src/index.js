@@ -8,7 +8,6 @@ import registerServiceWorker from './registerServiceWorker';
 import './react-form-builder/css/application.css';
 
 
-
 ReactDOM.render(<App />, document.getElementById('app'));
 
 registerServiceWorker();

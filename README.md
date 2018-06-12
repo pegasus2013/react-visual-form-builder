@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App] and based  on [blackjk3/re
 
 ```javascript
 var React = require('react');
-var FormBuilder = require('react-forms-builder');
+var FormBuilder = require('react-visual-form-builder');
 
 React.render(
   <FormBuilder.ReactFormBuilder />,
@@ -53,7 +53,7 @@ Now that a form is built and saved, let's generate it from the saved json.
 
 ```javascript
 var React = require('react');
-var FormBuilder = require('react-forms-builder');
+var FormBuilder = require('react-visual-form-builder');
 
 React.render(
   <FormBuilder.ReactFormGenerator

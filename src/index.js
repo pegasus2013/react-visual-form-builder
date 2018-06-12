@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import VisualFormBuilder from './VisualFormBuilder';
 import registerServiceWorker from './registerServiceWorker';
 
 //import './index.css';
-import './react-form-builder/css/application.css';
+import './react-visual-form-builder/css/application.css';
 
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<VisualFormBuilder />, document.getElementById('visual-form-builder'));
 
 registerServiceWorker();

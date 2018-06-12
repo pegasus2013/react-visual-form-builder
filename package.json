@@ -1,6 +1,11 @@
 {
   "name": "react-visual-form-builder",
-  "version": "0.0.11",
+  "version": "0.0.12",
+  "description": "React Visual Form Builder with POST Save action to export Form",
+  "main": "lib/VisualFormBuilder.js",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "autoprefixer": "8.5.1",
     "babel-core": "6.26.3",

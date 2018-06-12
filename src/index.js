@@ -1,13 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
 
-import VisualFormBuilder from './VisualFormBuilder';
-import registerServiceWorker from './registerServiceWorker';
-
-//import './index.css';
-import './react-visual-form-builder/css/application.css';
+import { ReactFormBuilder } from './react-visual-form-builder'; //./react-visual-form-builder/index
+import * as variables from './react-visual-form-builder/variables';
+import DemoBar from './react-visual-form-builder/demobar';
 
 
-ReactDOM.render(<VisualFormBuilder />, document.getElementById('visual-form-builder'));
+class VisualFormBuilder extends Component {
+  render() {
+    return (
 
-registerServiceWorker();
+      <div>
+        
+        <DemoBar variables={variables} />
+        <ReactFormBuilder variables={variables} />
+        
+      </div>
+    );
+  }
+}
+
+export default VisualFormBuilder;

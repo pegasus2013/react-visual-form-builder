@@ -1,5 +1,3 @@
-//import './App.css';
-
 import React, { Component } from 'react';
 
 import { ReactFormBuilder } from './react-visual-form-builder'; //./react-visual-form-builder/index

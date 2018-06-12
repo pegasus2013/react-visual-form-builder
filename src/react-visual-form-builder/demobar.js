@@ -66,7 +66,7 @@ export default class Demobar extends React.Component {
 
     return(
       <div className="clearfix" style={{margin:'10px', width:'70%'}}>
-        <h4 className="pull-left">Form Visual Builder: </h4>
+        <h4 className="pull-left">Visual Form Builder: </h4>
         
         <button className="btn btn-primary pull-right" style={{ marginRight: '10px'}} onClick={this.showPreview.bind(this)}>Preview Form</button>
 

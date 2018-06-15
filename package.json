@@ -1,6 +1,6 @@
 {
   "name": "react-visual-form-builder",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "React Visual Form Builder with POST Save action to export Form",
   "main": "lib/VisualFormBuilder.js",
   "files": [

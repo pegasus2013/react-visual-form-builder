@@ -16,10 +16,10 @@ This project was bootstrapped with [Create React App] and based  on [blackjk3/re
 
 ```javascript
 var React = require('react');
-var FormBuilder = require('react-visual-form-builder');
+var VisualFormBuilder = require('react-visual-form-builder');
 
 React.render(
-  <FormBuilder.ReactFormBuilder />,
+  <VisualFormBuilder />,
   document.body
 )
 ```
@@ -42,7 +42,7 @@ var items = [{
   content: 'Placeholder Text...'
 }];
 
-<FormBuilder.ReactFormBuilder
+<VisualFormBuilder.Builder
   url='path/to/GET/initial.json'
   toolbarItems={items}
   saveUrl='path/to/POST/built/form.json' />
@@ -53,10 +53,10 @@ Now that a form is built and saved, let's generate it from the saved json.
 
 ```javascript
 var React = require('react');
-var FormBuilder = require('react-visual-form-builder');
+var VisualFormBuilder = require('react-visual-form-builder');
 
 React.render(
-  <FormBuilder.ReactFormGenerator
+  <VisualFormBuilder.Generator
     form_action="/path/to/form/submit"
     form_method="POST"
     task_id={12} // Used to submit a hidden variable with the id to the form from the database.
@@ -88,7 +88,7 @@ variables | object | Optional | Key/value object that can be used for Signature 
 
 ### Read only Signatures
 
-Read only signatures allow you to use a saved/canned signature to be placed into the form. The signature will be passed in through the `variables` property to `ReactFormGenerator` and `ReactFormBuilder`.
+Read only signatures allow you to use a saved/canned signature to be placed into the form. The signature will be passed in through the `variables` property to `Generator` and `Builder`.
 
 To use a read only signature, choose the "Read only" option and enter the key value of the variable that will be used to pass in the signature.
 

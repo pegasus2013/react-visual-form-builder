@@ -6,12 +6,9 @@ import React from 'react';
 import Preview from './preview'
 import Toolbar from './toolbar'
 import ElementActions from './actions/ElementActions';
-import ReactFormGenerator from './form';
-
 
 import $ from 'jquery';
 
-let FormBuilders = {};
 
 class ReactFormBuilder extends React.Component {
 
@@ -91,12 +88,4 @@ class ReactFormBuilder extends React.Component {
 
 }
 
-/*FormBuilders.ReactFormBuilder = ReactFormBuilder;
-FormBuilders.ReactFormGenerator = ReactFormGenerator;
-
-module.exports = FormBuilders;*/
-
-export {
-  ReactFormBuilder,
-  ReactFormGenerator
-}
+export default ReactFormBuilder

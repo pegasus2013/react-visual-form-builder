@@ -1,12 +1,12 @@
+import './react-visual-form-builder/css/application.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import VisualFormBuilder from './VisualFormBuilder';
 import registerServiceWorker from './registerServiceWorker';
+import VisualFormBuilder from './VisualFormBuilder';
 
-import './react-visual-form-builder/css/application.css';
 
-
-ReactDOM.render(<VisualFormBuilder />, document.getElementById('visual-form-builder'));
+ReactDOM.render(<VisualFormBuilder />, document.getElementById('react-visual-form-builder'));
 
 registerServiceWorker();

@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 
-import { ReactFormBuilder } from './react-visual-form-builder'; //./react-visual-form-builder/index
+import ReactFormBuilder  from './react-visual-form-builder'; //./react-visual-form-builder/index
 import * as variables from './react-visual-form-builder/variables';
 import DemoBar from './react-visual-form-builder/demobar';
+import ReactFormGenerator from './react-visual-form-builder/form';
 
 
-class VisualFormBuilder extends Component {
+let VisualFormBuilder = {}
+
+class VisualBuilder extends Component {
+
   render() {
+    
     return (
 
       <div>
@@ -16,7 +21,12 @@ class VisualFormBuilder extends Component {
         
       </div>
     );
+
   }
+
 }
+
+VisualFormBuilder.Builder = VisualBuilder;
+VisualFormBuilder.Generator = ReactFormGenerator;
 
 export default VisualFormBuilder;

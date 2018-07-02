@@ -2,10 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # React Visual Form Builder
 
-A complete react visual form builder  that interfaces with a json endpoint to load and save generated forms.
-This project was bootstrapped with [Create React App] and based  on [blackjk3/react-form-builder](https://github.com/blackjk3/react-form-builder)
+A complete react visual form builder that interfaces with a json endpoint to load and save generated forms.
+This project was bootstrapped with [Create React App] and based on [blackjk3/react-form-builder](https://github.com/blackjk3/react-form-builder)
 
-- React 16 
+- update to React 16 
 
 ![](screenshot.png)
 
